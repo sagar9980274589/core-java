@@ -2,6 +2,7 @@ class Hotel
 {
 	public static void main(String[] args){
 		String items[]={"Dose","Idli","Chicken fry","Paysa","palav","poori","Vade","Fish fry","Mutton fry","watermon juice","pineapple juice","sandwich","burger","panner pizza","khulad pizza","onion pakoda","egg bonda","Dose","Idli","Chicken fry","Paysa","palav","poori","Vade","Fish fry","Mutton fry","watermon juice","pineapple juice","sandwich","burger","panner pizza","khulad pizza","onion pakoda","pineapple juice","sandwich","burger"};
+		
 		int quants[]={1,4,5,5,3,4,4,4,3,2,2,3,4,4,1,4,5,5,3,4,4,4,3,2,2,3,4,4,4,6,4,3,2,1,4};
 		
 		for(int i=0;i<35;i++){
