@@ -1,0 +1,21 @@
+class WaterFall {
+
+    static void waterFallInfo(String name, String riverName, int width, int altitude)
+    {
+        System.out.println("name of the waterfall: " + name);
+        System.out.println("river name: " + riverName);
+        System.out.println("width of the waterfall in meters: " + width);
+        System.out.println("altitude of the waterfall in feet: " + altitude);
+        System.out.println("--------------------------------------");
+    }
+
+    static void stateOwningInfo(String state, String nearbyTown, boolean hasParking, boolean hasGuideService, int ticketPrice)
+    {
+        System.out.println("name of the state: " + state);
+        System.out.println("nearby town: " + nearbyTown);
+        System.out.println("parking facility available: " + hasParking);
+        System.out.println("guide service available: " + hasGuideService);
+        System.out.println("ticket price to visit: " + ticketPrice);
+        System.out.println("--------------------------------------");
+    }
+}
