@@ -1,7 +1,7 @@
 class FMRadio{
 	static boolean isRadioOn=true;
 	static int volume=0;
-	static String[] stations={"","","","","",""};
+	static String[] stations={"","","","",""};
 	static int stationPresent=0;
 	static void toggleRadioState(){
 		isRadioOn=!isRadioOn;
@@ -54,21 +54,18 @@ System.out.println("its valid .decrementing volume by  :"+decrement);
 		if(station==null){
 		System.out.println("station cant be null !!");	
 		}
-			
-		if(stationPresent<=stations.length-1){
+			if(stationPresent==5){
+				stationPresent=0;
+			}
+		
 			stations[stationPresent]=station;
 			stationPresent++;
 			System.out.println("station added sucessfully.. stations are !!");
 			for(String substation:stations){
 				System.out.println(substation);	
 			}
-		}
-		else{
-			System.out.println("sorry store full.. stations are only !!"+stations.length+" stations are allowed");
-			for(String substation:stations){
-				System.out.println(substation);	
-			}
-		}
+		
+		
 	}
 	
 }
