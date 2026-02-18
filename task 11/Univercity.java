@@ -158,6 +158,53 @@ public class Univercity {
         else if (collegeName.equals("Malnad College of Engineering"))
             return new String[]{"BE Civil","BE Mechanical","BE Electrical","BE CSE","MTech"};
 
+        /* ------------------- Additional Colleges ------------------- */
+
+        else if (collegeName.equals("SJCE Mysore"))
+            return new String[]{"BE","MTech","MBA"};
+
+        else if (collegeName.equals("PDA College of Engineering"))
+            return new String[]{"BE Civil","BE Mechanical","MBA"};
+
+        else if (collegeName.equals("Ballari Institute of Technology"))
+            return new String[]{"BE","MBA","MTech"};
+
+        else if (collegeName.equals("Sahyadri College of Engineering"))
+            return new String[]{"BE","MTech","MBA"};
+
+        else if (collegeName.equals("Canara Engineering College"))
+            return new String[]{"BE","MBA"};
+
+        else if (collegeName.equals("Alvas Institute of Engineering"))
+            return new String[]{"BE","MBA","MTech"};
+
+        else if (collegeName.equals("Yenepoya Institute of Technology"))
+            return new String[]{"BE","MBA"};
+
+        else if (collegeName.equals("MITE Moodabidri"))
+            return new String[]{"BE","MTech","MBA"};
+
+        else if (collegeName.equals("SDM Institute of Technology"))
+            return new String[]{"BE","MBA","MTech"};
+
+        else if (collegeName.equals("Jain Institute of Technology"))
+            return new String[]{"BE","MBA"};
+
+        else if (collegeName.equals("Bapuji Institute of Engineering"))
+            return new String[]{"BE","MTech","MBA"};
+
+        else if (collegeName.equals("KSIT Bangalore"))
+            return new String[]{"BE","MBA","MTech"};
+
+        else if (collegeName.equals("New Horizon Engineering College"))
+            return new String[]{"BE","MBA","MTech"};
+
+        else if (collegeName.equals("City Engineering College"))
+            return new String[]{"BE","MBA"};
+
+        else if (collegeName.equals("Alpha College of Engineering"))
+            return new String[]{"BE","MBA"};
+
         else
             return new String[]{"College not found"};
     }
@@ -186,7 +233,15 @@ public class Univercity {
             "Bangalore Institute of Technology","Dr Ambedkar Institute of Technology",
             "Government Engineering College Raichur",
             "Adhichunchangiri Institute of Technology",
-            "Malnad College of Engineering"
+            "Malnad College of Engineering",
+            "SJCE Mysore","PDA College of Engineering",
+            "Ballari Institute of Technology","Sahyadri College of Engineering",
+            "Canara Engineering College","Alvas Institute of Engineering",
+            "Yenepoya Institute of Technology","MITE Moodabidri",
+            "SDM Institute of Technology","Jain Institute of Technology",
+            "Bapuji Institute of Engineering","KSIT Bangalore",
+            "New Horizon Engineering College","City Engineering College",
+            "Alpha College of Engineering"
         };
 
         for (int i = 0; i < colleges.length; i++) {
@@ -195,7 +250,7 @@ public class Univercity {
             for (int j = 0; j < courses.length; j++) {
                 System.out.println("  " + courses[j]);
             }
-           
+            System.out.println();
         }
     }
 }
