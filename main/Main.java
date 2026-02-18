@@ -6,6 +6,7 @@ class Main{
 		lib.displayBooks();
 		lib.addStudent(1,"sagar");
 		lib.displayUsers();
-		
+		lib.borrowBook(1,1);
+		lib.returnBook(1,1);
 	}
 }

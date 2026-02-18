@@ -15,6 +15,34 @@ class Library  {
 		books.add(newbook);
 		System.out.println("Book added Sucessfully");
 	}
+	public void borrowBook(int bookId,int userId){
+		Book bookToAdd=null;
+				 for (Book book : books) {
+        if (book.getId() == bookId) {
+            bookToAdd=book;
+        }
+    }
+		 for (User user : users) {
+        if (user.getId() == userId) {
+            user.borrowBook(bookToAdd);
+        }
+    }
+
+	}
+		public void returnBook(int bookId,int userId){
+		Book bookToReturn=null;
+				 for (Book book : books) {
+        if (book.getId() == bookId) {
+            bookToReturn=book;
+        }
+    }
+		 for (User user : users) {
+        if (user.getId() == userId) {
+            user.returnBook(bookToReturn);
+        }
+    }
+
+	}
 	public void addStudent(int userId,String userName){
 		User newUser = new Student(userName,userId);
 		users.add(newUser);

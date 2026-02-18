@@ -25,6 +25,9 @@ public Book(int bookId,String authorName,String title){
 	public void getTitle(){
 		System.out.println(this.title);
 	}
+	public int getId() {
+        return bookId;
+    }
 }
 	
 	
